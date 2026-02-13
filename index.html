@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Valentine's Day My Love ❤️</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Georgia', serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 30px;
+            padding: 40px;
+            max-width: 1400px;
+            margin: 0 auto;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .header h1 {
+            font-size: 4em;
+            color: #e74c3c;
+            margin-bottom: 10px;
+            font-family: 'Brush Script MT', cursive;
+        }
+        
+        .header .subtitle {
+            font-size: 1.5em;
+            color: #555;
+            font-style: italic;
+            margin-bottom: 5px;
+        }
+        
+        .date {
+            font-size: 1.2em;
+            color: #e74c3c;
+            font-weight: bold;
+        }
+        
+        .photo-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-bottom: 40px;
+        }
+        
+        .photo-item {
+            position: relative;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease;
+        }
+        
+        .photo-item:hover {
+            transform: scale(1.05);
+        }
+        
+        .photo-item img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            display: block;
+        }
+        
+        .photo-caption {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(to top, rgba(0,0,0,0.85), transparent);
+            color: white;
+            padding: 25px;
+            font-size: 1.1em;
+            text-align: center;
+            font-style: italic;
+        }
+        
+        .message-box {
+            background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+            border-radius: 20px;
+            padding: 50px;
+            text-align: center;
+            margin: 40px 0;
+        }
+        
+        .message-box h2 {
+            color: #c0392b;
+            font-size: 2.5em;
+            margin-bottom: 25px;
+        }
+        
+        .message-box p {
+            color: #2c3e50;
+            font-size: 1.3em;
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+        
+        .love-note {
+            background: white;
+            border-left: 5px solid #e74c3c;
+            padding: 30px;
+            margin: 30px 0;
+            border-radius: 10px;
+            font-style: italic;
+            color: #555;
+            font-size: 1.2em;
+            line-height: 1.8;
+        }
+        
+        .hearts {
+            text-align: center;
+            font-size: 3em;
+            margin: 30px 0;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+        }
+        
+        .floating-heart {
+            display: inline-block;
+            animation: float 3s ease-in-out infinite;
+            margin: 0 15px;
+        }
+        
+        .signature {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 1.5em;
+            color: #c0392b;
+            font-weight: bold;
+        }
+        
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2.5em;
+            }
+            .container {
+                padding: 20px;
+            }
+            .message-box {
+                padding: 30px;
+            }
+            .message-box h2 {
+                font-size: 1.8em;
+            }
+            .message-box p {
+                font-size: 1.1em;
+            }
+            .photo-item img {
+                height: 300px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Happy Valentine's Day My Love ❤️</h1>
+            <p class="subtitle">To My Queen</p>
+            <p class="subtitle">Distance means so little when you mean so much</p>
+            <p class="date">February 14, 2026</p>
+        </div>
+        
+        <div class="hearts">
+            <span class="floating-heart">❤️</span>
+            <span class="floating-heart" style="animation-delay: 0.5s;">💕</span>
+            <span class="floating-heart" style="animation-delay: 1s;">❤️</span>
+        </div>
+        
+        <div class="photo-grid">
+            <div class="photo-item">
+                <img src="photo1.jpg" alt="Our moment by the sea">
+                <div class="photo-caption">Our moment by the beautiful sea</div>
+            </div>
+            <div class="photo-item">
+                <img src="photo2.jpg" alt="Together in our room">
+                <div class="photo-caption">Every moment with you is home</div>
+            </div>
+            <div class="photo-item">
+                <img src="photo3.jpg" alt="Sweet moment">
+                <div class="photo-caption">You make me smile like no one else</div>
+            </div>
+            <div class="photo-item">
+                <img src="photo4.jpg" alt="Our kiss">
+                <div class="photo-caption">My favorite place is in your arms</div>
+            </div>
+            <div class="photo-item">
+                <img src="photo5.jpg" alt="Intimate moment">
+                <div class="photo-caption">Forever grateful for every kiss</div>
+            </div>
+        </div>
+        
+        <div class="message-box">
+            <h2>Though Miles Apart...</h2>
+            <p>The distance between us is just a test of how far our love can travel. Every mile that separates us brings us one step closer to the day we'll never have to say goodbye.</p>
+            <p>You're not just my Valentine today, you're my Valentine every single day. No matter how far apart we are, you're always close to my heart.</p>
+            <p>I carry your heart with me, I carry it in my heart. Distance is temporary, but what we have is forever.</p>
+            <p><strong>Until we're together again, know that you are loved, cherished, and missed more than words can express.</strong></p>
+        </div>
+        
+        <div class="love-note">
+            "No matter how many miles are between us, you are always the first thing I think of when I wake up and the last thing on my mind before I fall asleep. You are my today and all of my tomorrows."
+        </div>
+        
+        <div class="message-box" style="background: linear-gradient(135deg, #ffd6e8 0%, #ffb3d9 100%);">
+            <h2>What Makes You Special</h2>
+            <p>💕 The way your smile lights up my world, even through a screen</p>
+            <p>💕 How your voice brings me comfort no matter the distance</p>
+            <p>💕 The warmth of your embrace that I carry in my heart every day</p>
+            <p>💕 Every laugh, every kiss, every perfect moment we share</p>
+            <p>💕 The way you make distance feel like nothing when we're together</p>
+        </div>
+        
+        <div class="hearts">
+            <span class="floating-heart" style="animation-delay: 0.3s;">💖</span>
+            <span class="floating-heart" style="animation-delay: 0.8s;">💗</span>
+            <span class="floating-heart" style="animation-delay: 1.3s;">💖</span>
+        </div>
+        
+        <div class="message-box" style="background: linear-gradient(135deg, #ffe5e5 0%, #ffc1cc 100%);">
+            <h2>My Promise to You</h2>
+            <p>I promise to love you through every timezone, every mile, every moment apart.</p>
+            <p>Until I can hold you again, know that my heart is yours completely.</p>
+            <p>This distance is temporary, but my love for you is forever.</p>
+        </div>
+        
+        <div class="signature">
+            <p>Forever Yours,</p>
+            <p style="margin-top: 15px;">No Matter the Distance 💕</p>
+            <p style="font-size: 0.7em; margin-top: 20px; color: #999;">Valentine's Day 2026</p>
+        </div>
+    </div>
+</body>
+</html>
